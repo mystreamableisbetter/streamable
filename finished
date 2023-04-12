@@ -1,0 +1,11 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/strongprime/source/main/source", true))()
+
+DaHoodSettings.Prediction = 0.125
+
+getgenv().Aiming.TargetPart = {"Head", "UpperTorso", "HumanoidRootPart", "LowerTorso", "LeftHand", "RightHand", "LeftLowerArm", "RightLowerArm", "LeftUpperArm", "RightUpperArm", "LeftFoot", "LeftLowerLeg",  "LeftUpperLeg", "RightLowerLeg", "RightFoot",  "RightUpperLeg"}
+
+getgenv().Aiming.HitChance = 300
+
+getgenv().Aiming.ShowFOV = false
+
+getgenv().Aiming.FOV = 35

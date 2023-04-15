@@ -1,6 +1,6 @@
 hookfunction(game.Players.LocalPlayer.IsInGroup, function() return true end)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/mystreamableisbetter/AntiAimViewer/main/main.lua"))()
-local Aiming = loadstring(game:HttpGet("https://pastebin.com/77KR6Z5N"))()
+local Aiming = loadstring(game:HttpGet("https://raw.githubusercontent.com/mystreamableisbetter/streamable/main/src"))()
 
 Aiming.TeamCheck(false)
 
